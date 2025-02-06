@@ -1,0 +1,11 @@
+{
+  "module": {
+    "name": "RcpClient",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet",
+      "2in1"
+    ]
+  }
+}

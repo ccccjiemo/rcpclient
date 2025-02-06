@@ -1,0 +1,12 @@
+{
+  "name": "rcpclient",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "types": "Index.d.ts",
+  "main": "Index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "reflect-metadata": "0.1.13"
+  }
+}
