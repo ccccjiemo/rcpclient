@@ -1,11 +1,11 @@
-# @jemoc/RcpClient
+# @jemoc/rcpclient
 
 ---
 
 ## 如何安装
 
 ```shell
-ohpm install @jemoc/RcpClient
+ohpm install @jemoc/rcpclient
 ```
 
 ## 如何使用
@@ -17,7 +17,7 @@ Client装饰器会将所有方法通过方法名(请求方法 + 请求路径)转
 Session实例会保存在类原型上，复用Session，通过Close关闭Session对象;
 
 ```typescript
-import { RcpClient } from '@jemoc/RcpClient'
+import { RcpClient } from '@jemoc/rcpclient'
 
 @RcpClient.Client({ baseAddress: "http://127.0.0.1/api" })
 class UserApi {
@@ -148,7 +148,7 @@ class UserApi {
 }
 ```
 
-### 数据响应类型
+### 响应数据类型
 
 标准返回ArrayBuffer，可以通过Response装饰器将数据返回到特定方法
 
@@ -417,3 +417,14 @@ class UserViewModel extends UserBase {
 |--------|-----------------------------------|-----------------------|
 | Close  | (target: Function \| Object):void | 通过类实例或者类构造方法关闭session |
 | Cancel | (token: RequestCancelToken):void  | 取消Request请求           |      
+
+## 如果遇到问题
+
+---
+
+#### 使用过程中发现任何问题都可以提 [Issue](https://gitee.com/jiemoccc/rcpclient/issues)
+
+## 开源协议
+
+---
+#### 本项目基于 MIT License协议，请自由地享受和参与开源。

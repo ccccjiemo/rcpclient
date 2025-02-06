@@ -2,10 +2,13 @@
   "name": "@jemoc/rcpclient",
   "version": "1.0.0",
   "description": "Please describe the basic information.",
+  "keywords": ["rcp", "http"],
   "types": "Index.d.ts",
   "main": "Index.ets",
-  "author": "",
-  "license": "Apache-2.0",
+  "author": "ccccjiemo",
+  "license": "MIT License",
+  "repository": "https://gitee.com/jiemoccc/rcpclient",
+  "homepage": "https://gitee.com/jiemoccc/rcpclient",
   "dependencies": {
     "reflect-metadata": "0.1.13"
   }
