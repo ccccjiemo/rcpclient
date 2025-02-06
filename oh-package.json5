@@ -1,5 +1,5 @@
 {
-  "name": "rcpclient",
+  "name": "@jemoc/rcpclient",
   "version": "1.0.0",
   "description": "Please describe the basic information.",
   "types": "Index.d.ts",

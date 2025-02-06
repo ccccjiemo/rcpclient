@@ -1,1 +1,1 @@
-export { RCPClient } from './src/main/ets/Rcp/Index'
+export { RcpClient } from './src/main/ets/Rcp/Index'
